@@ -3,7 +3,8 @@ name = "typegun"
 version = "0.1.0"
 description = "Run a bunch of python typecheckers on a project, to see if there are any problems."
 readme = "README.md"
-license = "LICENSE.txt"
+license = "CC0-1.0"
+license-files = ["LICENSE.txt"]
 authors = [
     { name = "wyattscarpenter", email = "wyattscarpenter@gmail.com" }
 ]
