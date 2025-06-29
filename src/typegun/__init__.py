@@ -24,10 +24,6 @@ def main() -> None:
         print("Just run this script to check the types.")
         return 
 
-    hs("uv", "uv --version --verbose || pip install uv --disable-pip-version-check --break-system-packages")
-    print("Trying to install requirements.txt as a preemptive fallback in case there is no pyproject.toml...") 
-    s("uv pip install -r requirements.txt")
-    s("uv pip install ruff pyright mypy pytype pip")
     # One of these next two lines will work, depending on your operating system...
     if os_name == 'nt':
         s("set PYRIGHT_PYTHON_FORCE_VERSION=latest")

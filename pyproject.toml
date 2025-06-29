@@ -1,13 +1,13 @@
 [project]
 name = "typegun"
 version = "0.1.0"
-description = "Add your description here"
+description = "Run a bunch of python typecheckers on a project, to see if there are any problems."
 readme = "README.md"
+license = "LICENSE.txt"
 authors = [
     { name = "wyattscarpenter", email = "wyattscarpenter@gmail.com" }
 ]
-requires-python = ">=3.9"
-dependencies = []
+dependencies = ["ruff", "pyright", "mypy", "pytype"]
 
 [project.scripts]
 typegun = "typegun:main"
