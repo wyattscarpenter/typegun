@@ -1,6 +1,6 @@
 [project]
 name = "typegun"
-version = "0.2.0"
+version = "1.0.0"
 description = "Run a bunch of python typecheckers on a project, to see if there are any problems."
 readme = "README.md"
 license = "CC0-1.0"
