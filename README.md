@@ -5,7 +5,7 @@
 
 Typegun is a small command-line utility for python to run a bunch of python typecheckers on a project, to see if there are any problems. This grew out of a script I would cart around, which I decided to make a reusable package.
 
-(For the purposes of typegun, by typechecker I mean static analysis tools only; Not a "runtime type checker", of which there are many in Python. A "semi-static" typechecker like pyanalyze or pycroscope would be allowable here as a static analysis tool.)
+(For the purposes of typegun, by typechecker I mean static analysis tools only; not a "runtime type checker", of which there are many in Python. A "semi-static" typechecker like pyanalyze or pycroscope would be allowable here as a static analysis tool.)
 
 This only includes typecheckers that have a reasonable shot at typing near-current-version python projects mostly-correctly, in my (non-scientific) opinion, a list which may vary over time. If you'd like to add more or bicker about the configurations these typecheckers should have, I'm happy to hear it. The versions of these typecheckers are completely unpinned, all the better to get the most recent versions of them probably. It also includes [ruff](https://docs.astral.sh/ruff/), which is not a typechecker, but is very useful for code quality nonetheless.
 
